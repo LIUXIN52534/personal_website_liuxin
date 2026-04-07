@@ -1,0 +1,13 @@
+.DS_Store
+Thumbs.db
+*.log
+
+node_modules/
+.next/
+out/
+coverage/
+
+.claude/
+.superpowers/
+.omx/
+~$*.pdf
