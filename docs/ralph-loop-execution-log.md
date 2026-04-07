@@ -7,13 +7,14 @@
 - Worktree: `C:\Users\12067\Desktop\Vibe coding\personal_website_liuxin-dev`
 - Active implementation branch: `feat/site-v1-foundation`
 - Environment check: `omx doctor` passed 12/12 on `2026-04-03`
+- Baseline docs commit: `48c2bfa`
 
 ## Current Status
 
-- RFC status: major product decisions captured, docs refreshed, pending final doc review and baseline commit
-- Current unit: pre-U0 review gate
-- Last completed unit: none
-- Current blocker: waiting for final doc review, per-project summary copy drafting, and baseline commit
+- RFC status: major product decisions captured, baseline commit created, worktree initialized
+- Current unit: U1 ready to start
+- Last completed unit: U0
+- Current blocker: no P0 product blocker; remaining open items are summary copy drafting, poster generation, and later domain choice
 
 ## Dependency Graph Snapshot
 
@@ -28,7 +29,7 @@ U0 -> U1 -> U2 -> U3 -> U4 -> U8
 
 | Unit | Status | Depends On | Owner | Notes |
 | --- | --- | --- | --- | --- |
-| U0 | pending | none | unassigned | docs + repo hygiene baseline |
+| U0 | completed | none | completed | docs + repo hygiene baseline |
 | U1 | pending | U0 | unassigned | scaffold Next app |
 | U2 | pending | U1 | unassigned | content and typed data model |
 | U3 | pending | U2 | unassigned | app shell and bilingual routing |
@@ -81,8 +82,10 @@ U0 -> U1 -> U2 -> U3 -> U4 -> U8
 - Confirmed `哈迪斯系统拆解.xmind` will use `xmind-embed-viewer` with custom wrapper
 - Confirmed Quark links are not used in V1
 - Added design tokens, hero layout spec, and component catalog docs
+- Created baseline docs commit on `main`
+- Initialized worktree branch `feat/site-v1-foundation`
 
 ---
 
-Document version: 2.1  
+Document version: 2.2  
 Updated: 2026-04-08

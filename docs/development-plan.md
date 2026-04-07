@@ -138,7 +138,7 @@ Journal 页：
 
 - 主仓目录：`C:\Users\12067\Desktop\Vibe coding\personal_website_liuxin`
 - 主仓职责：文档、规划、审阅、基线管理
-- 当前状态：还没有首个 baseline commit
+- 当前状态：baseline commit 已创建，worktree 已初始化
 
 ### 4.2 审阅后执行的基线步骤
 
@@ -280,13 +280,13 @@ git worktree add ..\personal_website_liuxin-dev -b feat/site-v1-foundation
 
 当前阶段最适合做的是：
 
-1. 先 review 本轮更新后的文档。
-2. 文档确认后直接做 baseline commit。
-3. 创建 worktree 并进入开发阶段。
+1. 以当前文档为基线进入 U1。
+2. 在 `personal_website_liuxin-dev` 中初始化 Next.js 工程。
+3. 按 RFC 和 runbook 逐 unit 推进。
 
 这样后续 Ralph loop 就不会一边写代码，一边返工产品定义。
 
 ---
 
-文档版本：2.3  
+文档版本：2.4  
 更新日期：2026-04-08
