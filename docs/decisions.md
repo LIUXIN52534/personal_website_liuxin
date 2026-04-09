@@ -224,6 +224,16 @@ Format:
   - launch checklist
   - metadata finalization
 
+### D22 - Journal Scope
+
+- Question: Should `Journal` remain in the visible V1 navigation before any real content exists?
+- Decision: `defer Journal from V1 navigation and public routes for now`
+- Date: `2026-04-08`
+- Impact:
+  - navigation
+  - sitemap
+  - launch scope
+
 ## Still Open
 
 No remaining P0 product decisions are blocking development.  

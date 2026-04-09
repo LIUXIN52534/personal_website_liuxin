@@ -52,7 +52,7 @@ Build a bilingual personal portfolio site that is visually distinctive, hiring-o
 1. Stable app shell and route scaffold
 2. Typed content model
 3. Home hero and art direction
-4. Work / About / Contact / Journal pages
+4. Work / About / Contact pages
 5. Content replacement, polish, validation, deployment
 
 ## 3. Target File Layout
@@ -68,14 +68,12 @@ src/
       work/[slug]/page.tsx
       about/page.tsx
       contact/page.tsx
-      journal/page.tsx
     en/
       page.tsx
       work/page.tsx
       work/[slug]/page.tsx
       about/page.tsx
       contact/page.tsx
-      journal/page.tsx
     globals.css
     layout.tsx
   components/
@@ -141,8 +139,8 @@ This structure is a default, not a required exact tree, but the loop should pres
 - `depends_on`: U2
 - `scope`: implement layout, navigation, footer, bilingual routing, page chrome, shared design tokens, page-level metadata contract, and route-preserving locale switch
 - `acceptance_tests`:
-  - `/`, `/work`, `/about`, `/contact`, `/journal`
-  - `/en`, `/en/work`, `/en/about`, `/en/contact`, `/en/journal`
+  - `/`, `/work`, `/about`, `/contact`
+  - `/en`, `/en/work`, `/en/about`, `/en/contact`
   - language switch preserves destination intent
   - canonical and alternates are present for both locales
 - `risk_level`: medium
@@ -185,14 +183,14 @@ This structure is a default, not a required exact tree, but the loop should pres
 - `risk_level`: medium
 - `rollback_plan`: revert about-page-specific files
 
-### U7 - Contact And Journal
+### U7 - Contact
 
 - `id`: U7
 - `depends_on`: U3
-- `scope`: implement direct contact page and public journal placeholder page
+- `scope`: implement direct contact page with clear public contact actions
 - `acceptance_tests`:
   - contact info displays as plain text
-  - journal page is publicly routable from nav
+  - contact actions remain direct and form-free
 - `risk_level`: low
 - `rollback_plan`: revert page files only
 
