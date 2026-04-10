@@ -77,8 +77,8 @@ export function HomePlaceholder({ locale }: HomePlaceholderProps) {
 
               <h1 className={styles.heroTitle}>
                 <span className={styles.heroTitleLine}>
-                  <span className={styles.signalText} data-text={locale === "zh" ? "正在编制" : "Building a"}>
-                    {locale === "zh" ? "正在编制" : "Building a"}
+                  <span className={styles.signalText} data-text={locale === "zh" ? "正在编织" : "Building a"}>
+                    {locale === "zh" ? "正在编织" : "Building a"}
                   </span>
                 </span>
                 <span className={styles.heroTitleLine}>

@@ -80,7 +80,7 @@ export const pageCopy = {
   home: {
     zh: {
       eyebrow: "首页 / Home",
-      title: "正在编制游戏梦",
+      title: "正在编织游戏梦",
       description:
         "刘鑫的个人网站首页，用一个更像数字海报的首屏去建立身份、气质与作品入口。",
     },
