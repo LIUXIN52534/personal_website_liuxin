@@ -122,9 +122,8 @@ export const pageCopy = {
   contact: {
     zh: {
       eyebrow: "联系 / Contact",
-      title: "直接联系入口",
-      description:
-        "不通过联系表单，直接公开邮箱、微信与手机号。",
+      title: "联系方式",
+      description: "",
     },
     en: {
       eyebrow: "Contact / Reach Out",

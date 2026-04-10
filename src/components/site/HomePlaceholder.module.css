@@ -420,6 +420,10 @@
     padding-bottom: 2rem;
   }
 
+  .noiseLayer {
+    inset: 0;
+  }
+
   .heroTitle {
     max-width: 11ch;
   }
