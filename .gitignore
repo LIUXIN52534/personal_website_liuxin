@@ -51,3 +51,6 @@ next-env.d.ts
 AI 实践作品/
 刘鑫_策划.pdf
 vibe.jpg
+
+.vercel
+.env*.local

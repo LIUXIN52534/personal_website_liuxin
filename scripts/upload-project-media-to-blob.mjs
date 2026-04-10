@@ -1,6 +1,7 @@
 import { readFile, stat, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+import process from "node:process";
 
 import { put } from "@vercel/blob";
 
@@ -8,6 +9,11 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 const repoRoot = path.resolve(__dirname, "..");
 const outputPath = path.join(repoRoot, "src", "content", "project-media-urls.json");
+const envFilePath = path.join(repoRoot, ".env.local");
+
+if (typeof process.loadEnvFile === "function") {
+  process.loadEnvFile(envFilePath);
+}
 
 const uploadEntries = [
   { slug: "ai-dev-simulation", localAssetPath: "AI 实践作品/AI开发模拟.mp4" },

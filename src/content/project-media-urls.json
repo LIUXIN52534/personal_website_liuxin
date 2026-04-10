@@ -1,9 +1,9 @@
 {
-  "ai-dev-simulation": "",
-  "gameplay-flow-demo": "",
-  "faction-ai-demo": "",
-  "hades-system-breakdown": "",
-  "character-codex-demo": "",
-  "faction-map-demo": "",
-  "timeline-codex": ""
+  "ai-dev-simulation": "https://4krwuqrlv83gcmrs.public.blob.vercel-storage.com/projects/ai-dev-simulation/AI%E5%BC%80%E5%8F%91%E6%A8%A1%E6%8B%9F.mp4",
+  "gameplay-flow-demo": "https://4krwuqrlv83gcmrs.public.blob.vercel-storage.com/projects/gameplay-flow-demo/%E7%8E%A9%E6%B3%95%E6%B5%81%E7%A8%8Bdemo%E6%BC%94%E7%A4%BA.mp4",
+  "faction-ai-demo": "https://4krwuqrlv83gcmrs.public.blob.vercel-storage.com/projects/faction-ai-demo/%E5%8A%BF%E5%8A%9B%20AI%20demo%20%E6%BC%94%E7%A4%BA.mp4",
+  "hades-system-breakdown": "https://4krwuqrlv83gcmrs.public.blob.vercel-storage.com/projects/hades-system-breakdown/%E5%93%88%E8%BF%AA%E6%96%AF%E7%B3%BB%E7%BB%9F%E6%8B%86%E8%A7%A3.xmind",
+  "character-codex-demo": "https://4krwuqrlv83gcmrs.public.blob.vercel-storage.com/projects/character-codex-demo/%E4%BA%BA%E7%89%A9%E5%9B%BE%E9%89%B4%E7%B3%BB%E7%BB%9Fdemo.mp4",
+  "faction-map-demo": "https://4krwuqrlv83gcmrs.public.blob.vercel-storage.com/projects/faction-map-demo/%E5%8A%BF%E5%8A%9B%E5%9C%B0%E5%9B%BE%E6%BC%94%E7%A4%BA.mp4",
+  "timeline-codex": "https://4krwuqrlv83gcmrs.public.blob.vercel-storage.com/projects/timeline-codex/%E5%A4%A7%E4%BA%8B%E5%B9%B4%E8%A1%A8%E5%9B%BE%E9%89%B4.mp4"
 }
