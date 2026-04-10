@@ -98,15 +98,6 @@ export function HomePlaceholder({ locale }: HomePlaceholderProps) {
                   {locale === "zh" ? uiCopy.heroCtaSecondary.zh : uiCopy.heroCtaSecondary.en}
                 </Link>
               </div>
-
-              <div className={styles.contactSummary}>
-                <span className="mono-label">
-                  {locale === "zh" ? uiCopy.heroContactLabel.zh : uiCopy.heroContactLabel.en}
-                </span>
-                <a className={styles.contactValue} href={`mailto:${siteConfig.email}`}>
-                  {siteConfig.email}
-                </a>
-              </div>
             </div>
 
             <aside className={styles.previewRail}>

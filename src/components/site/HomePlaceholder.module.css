@@ -212,20 +212,6 @@
   padding-top: 0.35rem;
 }
 
-.contactSummary {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  gap: 0.8rem;
-  padding-top: 0.2rem;
-}
-
-.contactValue {
-  color: var(--text-primary);
-  font-size: 0.95rem;
-  line-height: 1.6;
-}
-
 .previewRail {
   align-self: end;
   display: flex;
